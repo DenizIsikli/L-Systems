@@ -1,0 +1,6 @@
+# compiled binary
+L-Systems
+
+# optional: all binaries
+*.out
+*.exe
