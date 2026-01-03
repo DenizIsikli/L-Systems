@@ -21,5 +21,5 @@ g++ LindenmayerSystem.cpp -std=c++17 -O2 `sdl2-config --cflags --libs` -o Linden
 
 ```bash
 # FFmpeg capture mode (GIF)
-./LindenmayerSystem ffmpeg | ffmpeg -f rawvideo -pixel_format rgba -video_size 800x600 -framerate 60 -i - LindenmayerSystem.gif
+../LindenmayerSystem ffmpeg | ffmpeg -f rawvideo -pixel_format rgba -video_size 800x600 -framerate 60 -i - LindenmayerSystem.gif/LindenmayerSystem ffmpeg | ffmpeg -f rawvideo -pixel_format rgba -video_size 800x600 -framerate 60 -i - LindenmayerSystem.gif
 ```
